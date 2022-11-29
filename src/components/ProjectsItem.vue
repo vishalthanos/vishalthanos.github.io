@@ -19,9 +19,13 @@
         </div>
       </div>
       <div
-        class="bg-slate-50 absolute shadow flex justify-center items-center w-[400px] top-10 right-48 p-8 z-[2]"
+        class="bg-slate-50 absolute shadow flex justify-center items-center w-[400px] h-[450px] overflow-hidden top-10 right-48 p-8 z-[2]"
       >
-        <img class="border-2 border-black" :src="item.img" :alt="item.name" />
+        <img
+          class="scale-125 hover:scale-100 transition-all ease-linear duration-500"
+          :src="item.img"
+          :alt="item.name"
+        />
       </div>
     </div>
   </section>
@@ -51,7 +55,7 @@ export default {
           id: 3,
           name: "Project 3",
           description: "Project 3 description",
-          img: "https://picsum.photos/500/300",
+          img: "https://picsum.photos/500/700",
         },
       ],
     };

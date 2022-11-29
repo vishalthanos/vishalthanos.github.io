@@ -4,17 +4,13 @@
       <img src="../assets/images/DP.png" alt="Vishal" />
     </div> -->
     <div
-      class="container min-h-[90vh] flex animate-in fade-in slide-in-from-right-full duration-1000 flex-col justify-between items-center gap-10 p-10 sm:flex-row"
+      class="container min-h-[90vh] flex animate-in fade-in slide-in-from-right-full ease-linear duration-1000 flex-col justify-between items-center gap-10 p-10 sm:flex-row"
     >
       <div class="flex">
         <img src="../assets/images/DP.png" alt="Vishal" />
       </div>
       <div class="container max-w-xl flex flex-col h-36">
-        <h1
-          class="text-4xl font-inter text-[#8F7B6A] animate-in fade-in-0 slide-in-from-top-full delay-1000 duration-700"
-        >
-          Hi, I am Vishal
-        </h1>
+        <h1 class="text-4xl font-inter text-[#8F7B6A]">Hi, I am Vishal</h1>
         <div class="font-quick text-[#4A4A4A]">
           <p class="mt-6">
             I am a designer and a maker, currently pursuing my Master's
