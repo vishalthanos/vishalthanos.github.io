@@ -1,5 +1,5 @@
 <template>
   <div class="bg-gray-600 min-h-screen">
-    <img src="/resume.jpg" />
+    <img src="/resume.jpg" alt="vishal-resume">
   </div>
 </template>
