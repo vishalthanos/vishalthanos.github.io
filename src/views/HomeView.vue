@@ -4,7 +4,7 @@
       <img src="../assets/images/DP.png" alt="Vishal" />
     </div> -->
     <div
-      class="container min-h-[90vh] flex animate-in fade-in slide-in-from-right-full ease-linear duration-1000 flex-col justify-between items-center gap-10 p-10 sm:flex-row"
+      class="container min-h-[93vh] flex animate-in fade-in slide-in-from-right-full ease-linear duration-1000 flex-col justify-between items-center gap-10 p-10 sm:flex-row"
     >
       <div class="flex">
         <img src="../assets/images/DP.png" alt="Vishal" />
