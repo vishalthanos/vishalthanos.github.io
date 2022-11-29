@@ -39,7 +39,7 @@ export default {
           name: "Branding on Mahua",
           description:
             "Design a brand identity to uplift a group indegenously grown and manufactured product range ...",
-          img: "/src/assets/images/Mahua-logo.png",
+          img: "/images/Mahua-logo.png",
         },
         {
           id: 2,
