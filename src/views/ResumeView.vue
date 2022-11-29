@@ -1,15 +1,5 @@
 <template>
   <div class="bg-gray-600 min-h-screen">
-    <vue-pdf-embed source="/resume.pdf" />
+    <img src="/resume.jpg" />
   </div>
 </template>
-
-<script>
-import VuePdfEmbed from "vue-pdf-embed";
-
-export default {
-  components: {
-    VuePdfEmbed,
-  },
-};
-</script>
