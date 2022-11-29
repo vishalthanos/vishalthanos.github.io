@@ -12,7 +12,7 @@
           <h2 class="text-2xl">{{ item.name }}</h2>
           <p class="mt-10 text-sm text-gray-700">{{ item.description }}</p>
           <RouterLink
-            :to="'/projects/' + $(item.id)"
+            :to="`/project/${item.id}`"
             class="absolute items-center hover:underline bottom-10 right-10 mt-10 rounded-md"
             >View Project &rarr;</RouterLink
           >
@@ -40,7 +40,6 @@ export default {
           description:
             "Design a brand identity to uplift a group indegenously grown and manufactured product range ...",
           img: "/src/assets/images/Mahua-logo.png",
-          link: "/projects/branding-on-mahua",
         },
         {
           id: 2,
