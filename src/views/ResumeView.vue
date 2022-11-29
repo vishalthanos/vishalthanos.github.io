@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-600 min-h-screen">
-    <vue-pdf-embed :source="source1" />
+    <vue-pdf-embed source="/resume.pdf" />
   </div>
 </template>
 
@@ -10,11 +10,6 @@ import VuePdfEmbed from "vue-pdf-embed";
 export default {
   components: {
     VuePdfEmbed,
-  },
-  data() {
-    return {
-      source1: "/resume.pdf",
-    };
   },
 };
 </script>
