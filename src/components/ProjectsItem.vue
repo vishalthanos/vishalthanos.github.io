@@ -1,5 +1,6 @@
 <template>
   <section
+    id="work"
     v-for="item in projects"
     :key="item.id"
     class="min-h-screen bg-[#F3EDE9] flex justify-center text-gray-800 items-center"
@@ -22,8 +23,8 @@
         class="bg-slate-50 absolute shadow flex justify-center items-center w-[400px] h-[450px] overflow-hidden top-10 right-48 p-8 z-[2]"
       >
         <img
-          class="scale-125 hover:scale-100 transition-all ease-linear duration-500"
-          :src="item.img"
+          class="scale-125 hover:scale-100 border-2 border-black w-full transition-all ease-linear duration-500"
+          :src="item.bgImage"
           :alt="item.name"
         />
       </div>

@@ -1,8 +1,5 @@
 <template>
   <section class="bg-hero-gradient relative px-20 overflow-hidden">
-    <!-- <div class="flex -z-10">
-      <img src="../assets/images/DP.png" alt="Vishal" />
-    </div> -->
     <div
       class="container min-h-[93vh] flex animate-in fade-in slide-in-from-right-full ease-linear duration-1000 flex-col justify-between items-center gap-10 p-10 sm:flex-row"
     >
@@ -30,11 +27,15 @@
           </div>
         </div>
 
-        <div
-          class="bg-gray-300 w-36 h-36 absolute -bottom-[50px] transform -translate-x-1/2 flex justify-center items-center left-1/2 rounded-full border border-gray-400 border-dashed"
+        <a
+          href="#work"
+          class="bg-gray-400 w-36 h-36 absolute -bottom-[55px] transform -translate-x-1/2 flex justify-center items-center left-1/2 rounded-full border border-gray-700 border-dashed"
         >
           <div
-            class="bg-gray-50 w-20 text-gray-500 h-20 rounded-full flex justify-center items-center flex-col"
+            class="absolute animate-spin-slow w-28 h-28 z-0 rounded-full border-2 border-gray-700 border-dotted"
+          ></div>
+          <div
+            class="bg-gray-50 w-20 z-10 text-gray-500 h-20 rounded-full flex justify-center items-center flex-col"
           >
             <div
               class="animate-bounce flex justify-center flex-col items-center"
@@ -43,7 +44,7 @@
               <p class="text-xs">Scroll Down</p>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
