@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        quick:['Quicksand', 'sans']
+        quick:['Quicksand', 'sans'],
+        inter:['Inter', 'sans']
       }
     },
   },
