@@ -1,7 +1,10 @@
 <template>
-  <section class="bg-[#464848]">
+  <section class="bg-[#464848] relative">
+    <div class="flex -z-10">
+      <img src="../assets/images/DP.png" alt="Vishal" />
+    </div>
     <div
-      class="container  min-h-screen flex animate-in fade-in slide-in-from-right-full delay-500 duration-500 flex-col justify-center items-center gap-8 p-10 sm:flex-row"
+      class="container absolute top-0 min-h-screen flex animate-in fade-in slide-in-from-right-full delay-500 duration-500 bg-hero-gradient flex-col justify-center items-center gap-8 p-10 sm:flex-row"
     >
       <div class="flex">
         <img src="../assets/images/DP.png" alt="Vishal" />
