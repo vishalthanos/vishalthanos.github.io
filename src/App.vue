@@ -2,7 +2,7 @@
   <NavBarItemVue />
   <RouterView />
   <footer class="py-4 px-2 bg-[#b4b3b3]">
-    <div class="flex justify-end items-center">
+    <div class="flex justify-end mr-20 items-center">
       <div class="flex flex-col">
         <div class="flex justify-center items-center gap-4">
           <a href="https://www.instagram.com/vishal-thanos">
