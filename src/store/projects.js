@@ -20,16 +20,14 @@ export const useProjectStore = defineStore("project", {
       {
         id: 2,
         name: "Typography",
-        description: "Project 2 description",
-        img: "https://picsum.photos/500/300",
+        description: "Design inspiration taken from circuit ...",
         bgImage: "/images/typo/bg-typo.png",
         aboutImg: "/images/typo/branding-typo.png",
       },
       {
         id: 3,
         name: "Project 3",
-        description: "Project 3 description",
-        img: "https://picsum.photos/500/700",
+        description: "Design inspiration taken fromn mushroom",
         bgImage: "/images/mush/bg-mush.png",
         aboutImg: "/images/mush/branding-mush.png",
       },

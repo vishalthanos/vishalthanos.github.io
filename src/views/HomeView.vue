@@ -7,7 +7,7 @@
         <img src="../assets/images/DP.png" alt="Vishal" />
       </div>
       <div class="container max-w-xl flex flex-col h-36">
-        <h1 class="text-4xl font-inter text-[#8F7B6A]">Hi, I am Vishal</h1>
+        <h1 class="text-6xl font-inter text-[#8F7B6A]">Hi, I am Vishal</h1>
         <div class="font-quick text-[#4A4A4A]">
           <p class="mt-6">
             I am a designer and a maker, currently pursuing my Master's
@@ -29,7 +29,7 @@
 
         <a
           href="#work"
-          class="bg-gray-400 w-36 h-36 absolute -bottom-[55px] transform -translate-x-1/2 flex justify-center items-center left-1/2 rounded-full border border-gray-700 border-dashed"
+          class="bg-gray-200 w-36 h-36 absolute -bottom-[70px] transform -translate-x-1/2 flex justify-center items-center left-1/2 rounded-full border border-gray-700 border-dashed"
         >
           <div
             class="absolute animate-spin-slow w-28 h-28 z-0 rounded-full border-2 border-gray-700 border-dotted"
@@ -38,7 +38,7 @@
             class="bg-gray-50 w-20 z-10 text-gray-500 h-20 rounded-full flex justify-center items-center flex-col"
           >
             <div
-              class="animate-bounce flex justify-center flex-col items-center"
+              class="animate-bounce absolute top-10 flex justify-center flex-col items-center"
             >
               &darr;
               <p class="text-xs">Scroll Down</p>

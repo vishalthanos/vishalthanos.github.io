@@ -1,9 +1,11 @@
 <template>
   <header class="font-quick text-lg bg-[#F3EDE9] p-4">
     <div class="container max-w-xl mx-auto">
-      <nav class="flex text-[#8F7B6A] justify-between items-center">
+      <nav class="flex text-[#8d7968] justify-between items-center">
         <RouterLink to="/">About</RouterLink>
-        <a href="#work">Work</a>
+        <RouterLink :to="{ name: 'about' }">
+          <a class="text-[#4A4A4A]" href="#work">Work</a>
+        </RouterLink>
         <RouterLink to="/resume">Resume</RouterLink>
       </nav>
     </div>
