@@ -26,7 +26,7 @@ export const useProjectStore = defineStore("project", {
       },
       {
         id: 3,
-        name: "Project 3",
+        name: "Mushroom",
         description: "Design inspiration taken fromn mushroom",
         bgImage: "/images/mush/bg-mush.png",
         aboutImg: "/images/mush/branding-mush.png",
